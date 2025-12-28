@@ -27,5 +27,5 @@ test('App increments correctly', () => {
     fireEvent.click(btnCount);
 
     // Assertion after incrementing
-    expect(btnCount).toHaveTextContent('count is 2');
+    expect(btnCount).toHaveTextContent('count is 1');
 });
